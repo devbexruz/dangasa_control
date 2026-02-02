@@ -12,8 +12,10 @@ Dangasa Control - bu tabiiy gesturalar orqali qisqa videolarni boshqarish imkoni
 Ushbu loyiha gesturalarni tanish va ko'z orqali boshqarish texnologiyasining kuchini namoyish etadi.
 
 ## Natija
-<video src="https://github.com/devbexruz/dangasa_control/raw/main/Result.mp4" width="100%" controls></video>
 
+<div align="center">
+  <video src="https://github.com/devbexruz/dangasa_control/raw/main/Result.mp4" width="100%" autoplay loop muted controls></video>
+</div>
 
 ## Xususiyatlari
 
