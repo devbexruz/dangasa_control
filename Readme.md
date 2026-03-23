@@ -30,7 +30,9 @@
 ## 🎬 Demo
 
 <div align="center">
-  <video src="https://github.com/devbexruz/dangasa_control/raw/main/Result.mp4" width="50%" autoplay loop muted controls></video>
+
+https://github.com/devbexruz/dangasa_control/raw/main/Result.mp4
+
 </div>
 
 ---
@@ -126,6 +128,7 @@ dangasa_control/
 ├── main.py              # Asosiy dastur — kamera, aniqlash va boshqaruv logikasi
 ├── requirements.txt     # Python kutubxonalari ro'yxati
 ├── Result.mp4           # Natijani ko'rsatuvchi demo video
+├── LICENSE              # MIT litsenziya fayli
 └── Readme.md            # Loyiha hujjatlari
 ```
 
