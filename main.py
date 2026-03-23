@@ -77,11 +77,11 @@ while cap.isOpened():
         for hand_landmarks in hand_results.multi_hand_landmarks:
             finger_tip_y = hand_landmarks.landmark[8].y 
             if finger_tip_y < UP_THRESHOLD:
-                pyautogui.press("down")
+                pyautogui.press("up")
                 cv2.putText(frame, "UP!", (w-150, 150), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (255, 0, 0), 3)
                 time.sleep(0.15) 
 
-    cv2.imshow('Smart Control v3', frame)
+    # cv2.imshow('Smart Control v3', frame)
     if cv2.waitKey(1) & 0xFF == 27: break
 
 cap.release()
